@@ -12,9 +12,11 @@ addBtn.addEventListener("click",function(){
    const updatePrice=newPhonePrice + 1219;
    document.getElementById("phonePrice").innerText=updatePrice;
 
+
    const subTotal=document.getElementById("subTotal").innerText;
    const total=parseFloat(subTotal);
    const totalPrice= total+1219;
+
 
    document.getElementById("subTotal").innerText=totalPrice;
    document.getElementById("total").innerText=totalPrice;
